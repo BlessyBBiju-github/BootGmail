@@ -2,28 +2,30 @@
 margin:0;
 padding:0;
 background-color:light;
+font-family:Arial,sans-serif;
+ font-size:10px;
 }
 /*header*/
  .headerLeft img {
     object-fit: contain;
     margin-left: 10px;
-    width:50px;
+    width:30px;
   }
   
-  .header {
-    display: flex;
+ .header {
+     display:flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid whitesmoke;
   }
-  
+
   .headerLeft {
     display: flex;
     align-items: center;
   }
  .headerMiddle{
     display: flex;
-    flex: 0.6;
+    flex: 0.5;
     align-items: center;
     background-color: whitesmoke;
     border-radius: 4px;
@@ -51,4 +53,117 @@ background-color:light;
   .headerRight img{
     width:37px;
     padding-left:20px;
+  }
+ 
+.sideBarCompose {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+    font-family: serif;
+  }
+  
+  .sideBarCompose img {
+    margin-right: 5px;
+    color: rgba(255, 0, 0, 1.0);
+    width: 30px;
+  }
+  
+  .sideBarOption {
+    display: flex;
+    align-items: center;
+     padding: 0 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    color: #818181;
+  }
+  
+  .sideBarOption img{
+    padding: 4px;
+    font-size:x-small;
+    margin: 3px;
+    width:25px;
+    color: grey;
+  }
+
+  
+  .sideBarOption h4 {
+    flex: 0.1;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family:serif;
+  
+ }
+  
+  .sideBarOption:hover,
+  .sideBarOption:hover h4,
+  .sideBarOption:hover .img,
+  .sideBarOptionActive,
+  .sideBarOptionActive h4,
+  .sideBarOptionActive .img{
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight:normal;
+   }
+ 
+.emailRow img{
+    width:25px;
+}
+  
+.emailRow1 img{
+    width:25px;
+}  
+.emailRow2 img{
+    width:25px;
+    padding:5px;
+}
+.emailRow2 {
+   padding:5px;
+   color: red;
+    border-bottom: 3px solid red;
+    font-size: small ;
+    padding-right: 5px;
+    padding: 1px;
+    margin: 1px;
+
+}
+.emailRow3 img {
+  width:25px;
+  padding:5px;
+}
+.emailRowList img{
+  width:15px;
+}
+.emailRowList h3 {
+    font-size: 10px;
+    margin-left: 15px;
+    padding: 2px;
+    float: right;
+  }
+   
+ .emailRowTitle {
+    font-size: 15px;
+    flex: 0.2;
+     padding-right:1px;
+    font-weight:lighter;
+    padding: 1px;
+  }
+  
+  .emailRowTime {
+      padding-right: 10px;
+      font-size: 10px;
+     font-weight: normal;
+  
   }
