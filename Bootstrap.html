@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-   <html>
-  <head lang="en-US">
+<html lang="en">
+  <head>
     <title>Bootstrap </title>
     <script src="Assets/Bootstrap.js"></script>
     <link rel="stylesheet" href="css/Bootstrap.css">
@@ -8,171 +8,310 @@
   </head>
   <body>
     <div class="header-container">
-       <div class="header">
+      <div class="header">
         <div class="col-2">
           <div class="headerLeft">
-             <img src="Assets/menu.png" alt="menu" />
+            <img src="Assets/menu.png" alt="menu" />
             <img src="Assets/gmaillogo.png" alt="logo" />
           </div>
         </div>
-         <div class="col-8">
-           <div class="headerMiddle">
-             <img src="Assets/search.png" alt="search" />
-               <input type="text" placeholder="Search mail" />
-                 <img src="Assets/tune.png" alt="tune" />
-           </div>
-          </div>
-         <div class="col-2 text-end">
-           <div class="headerRight">
-             <img src="Assets/apps.png" alt="apps" />
-               <img src="Assets/notication.png" alt="notification" />
-                <img src="Assets/account.png" alt="account" />
-            </div>
+        <div class="col-8">
+          <div class="headerMiddle">
+            <img src="Assets/search.png" alt="search" />
+            <input type="text" placeholder="Search mail" />
+            <img src="Assets/tune.png" alt="tune" />
           </div>
         </div>
-    <div class="row">
-        <div class="col-2">
-         <button class="sideBarCompose">
-             <img src="Assets/add.png"  alt="add" />
-                   Compose
-          </button>
-          <div class="sideBarOption sideBarOptionActive">
-             <img src="Assets/inbox3.png" alt="inbox"/>
-              <h4>Inbox</h4>
+        <div class="col-2 text-end">
+          <div class="headerRight">
+            <img src="Assets/apps.png" alt="apps" />
+            <img src="Assets/notication.png" alt="notification" />
+            <img src="Assets/account.png" alt="account" />
           </div>
-
-         <div class="sideBarOption">
-            <img src="Assets/star.png" alt="star"/>
-             <h4>Starred</h4>
-          </div>
-
-        <div class="sideBarOption">
-          <img src="Assets/schedule.png" alt="snoozed"/>
-          <h4>Snoozed</h4>
-        </div>
-
-        <div class="sideBarOption">
-          <img src="Assets/label.png" alt="label"/>
-          <h4>Important</h4>
-        </div>
-
-        <div class="sideBarOption">
-          <img src="Assets/send.png" alt="send"/>
-          <h4>Sent</h4>
-        </div>
-
-        <div class="sideBarOption">
-         <img src="Assets/draft.png" alt="draft"/>
-          <h4>Drafts</h4>
-        </div>
-
-        <div class="sideBarOption">
-          <img src="Assets/expand.png" alt="expand"/>
-          <h4>More</h4>
-        </div>
-      
-        <div class="sideBarOption">
-          <img src="Assets/video.png" alt="video"/>
-          <h4>new meeting</h4>
-        </div>
-        <div class="sideBarOption">
-          <img src="Assets/keyboard.png" alt="join"/>
-          <h4>Join a Meeting</h4>
         </div>
       </div>
- <!--sidebar ends-->
-       <div class="col-10">
-          <div class="row">
-            <div class="col-6"> 
-             <div class="emailRow">
-              <input type="checkbox" />
-            <img src="Assets/expand.png" alt="expand" />
-            <img src="Assets/redo.png" alt="refresh"/>
-            <img src="Assets/3dot.png" alt="morevert"/>
-            </div>
-           </div>
-          <div class="col-6 text-end"> 
-             <div class="emailRow1">
-               <img src="Assets/chevronleft.png" alt="expand" />
-               <img src="Assets/chevronright.png" alt="refresh"/>
-               <img src="Assets/keyboard.png" alt="morevert"/>
-            </div>
-         </div>
-          <div class="row">
-           <div class="col-2">
-           <div class="emailRow2">
-            <img src="Assets/inbox3.png" alt="inbox"/>
-            <h4>Primary</h4>
-           </div>
-       </div>
-          <div class="col-2">
-          <div class="emailRow3">
-            <img src="Assets/person.png" alt="person"/>
-            <h4>Social</h4>
-       </div>
-       </div>
+      <div class="row">
         <div class="col-2">
-          <div class=" emailRow3">
-            <img src="Assets/sell.png" alt="sell"/>
-            <h4>Promotions</h4>
+          <button class="sideBarCompose">
+            <img src="Assets/add.png" alt="add" /> Compose </button>
+          <div class="sideBarOption sideBarOptionActive">
+            <img src="Assets/inbox3.png" alt="inbox" />
+            <h4>Inbox</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/star.png" alt="star" />
+            <h4>Starred</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/schedule.png" alt="snoozed" />
+            <h4>Snoozed</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/label.png" alt="label" />
+            <h4>Important</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/send.png" alt="send" />
+            <h4>Sent</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/draft.png" alt="draft" />
+            <h4>Drafts</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/expand.png" alt="expand" />
+            <h4>More</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/video.png" alt="video" />
+            <h4>New meeting</h4>
+          </div>
+          <div class="sideBarOption">
+            <img src="Assets/keyboard.png" alt="join" />
+            <h4>Join a Meeting</h4>
           </div>
         </div>
-     <div class=" emailRowList">
-	    <div class="col-3 mt-3">
-	      <div class="emailRowOptions d-flex align-items-center">
+        <!--sidebar ends-->
+        <div class="col-10">
+          <div class="row">
+            <div class="col-6">
+              <div class="emailRow">
+                <input type="checkbox" />
+                <img src="Assets/expand.png" alt="expand" />
+                <img src="Assets/redo.png" alt="refresh" />
+                <img src="Assets/3dot.png" alt="morevert" />
+              </div>
+            </div>
+            <div class="col-6 text-end">
+              <div class="emailRow1">
+                <img src="Assets/chevronleft.png" alt="expand" />
+                <img src="Assets/chevronright.png" alt="refresh" />
+                <img src="Assets/keyboard.png" alt="morevert" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <div class="emailRow2 d-flex align-item center">
+                  <img src="Assets/inbox3.png" alt="inbox" />
+                  <h4>Primary</h4>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="emailRow3 d-flex">
+                  <img src="Assets/person.png" alt="person" />
+                  <h4>Social</h4>
+                </div>
+              </div>
+           <div class="col-2">
+              <div class=" emailRow3 d-flex">
+                <img src="Assets/sell.png" alt="sell" />
+                <h4>Promotions</h4>
+              </div>
+            </div>
+          </div>
+         <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
                 <input type="checkBox">
                 <span>
                   <img src="Assets/star.png" class="icons" alt="grade">
                 </span>
                 <span>
                   <img src="Assets/label.png" class="icons" alt="label">
-               </span>
-	      <h3 class="emailRowTitle pt-2">Youtube</h3>
-             </div>
-	   </div>
-	  <div class="col-7 mt-3">
-	    <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+                </span>
+                <h4 class="emailRowTitle pt-2">Youtube</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
-	   <div class="col-2 mt-3 text-end">
-	    <p class="emailRowTime">10pm</p>
-          </div>
-      <div class=" emailRowList">
-	    <div class="col-3 mt-3">
-	      <div class="emailRowOptions d-flex align-items-center">
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
                 <input type="checkBox">
                 <span>
                   <img src="Assets/star.png" class="icons" alt="grade">
                 </span>
                 <span>
                   <img src="Assets/label.png" class="icons" alt="label">
-               </span>
-	      <h3 class="emailRowTitle pt-2">Gmail</h3>
-             </div>
-	   </div>
-	  <div class="col-7 ">
-	    <h3 class="emailRowTitle pt-2">Tips for using your new inbox--Welcome to your Find emails fast With the power of google... </h3>
+                </span>
+                <h4 class="emailRowTitle pt-2">Test</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Subject Topic--Body Template </h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
-	   <div class="col-2 mt-3 text-end">
-	    <p class="emailRowTime">2pm</p>
-          </div>
-    	 <div class=" emailRowList">
-	    <div class="col-3 mt-3">
-	      <div class="emailRowOptions d-flex align-items-center">
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
                 <input type="checkBox">
                 <span>
                   <img src="Assets/star.png" class="icons" alt="grade">
                 </span>
                 <span>
                   <img src="Assets/label.png" class="icons" alt="label">
-               </span>
-	      <h3 class="emailRowTitle pt-2">Google</h3>
-             </div>
-	  </div>
-	  <div class="col-7 mt-3">
-	    <h3 class="emailRowTitle pt-2">Login on New Device - is this your Device ?</h3>
+                </span>
+                <h4 class="emailRowTitle pt-2">Gmail Team</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Tips for using your new inbox--Welcome to your Find emails fast</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
-	   <div class="col-2 mt-3 text-end">
-	    <p class="emailRowTime">5pm</p>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Google</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Login on New Device-- is this your Device ?</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
           </div>
-      </body>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Test</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Subject Topic-Body Template</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">6pm</p>
+            </div>
+          </div>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Microsoft Account</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Verify your email address-Microsoft account verify </h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">4pm</p>
+            </div>
+          </div>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Google</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Login on New Device-- is this your Device ?</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">2pm</p>
+            </div>
+          </div>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Test</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Subject Topic-Body Template</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">3pm</p>
+            </div>
+          </div>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Google</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Login on New Device-- is this your Device ?</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">8pm</p>
+            </div>
+          </div>
+          <div class=" emailRowList row">
+            <div class="col-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h4 class="emailRowTitle pt-2">Google</h4>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <h4 class="emailRowTitle pt-2">Login on New Device-- is this your Device ?</h4>
+            </div>
+            <div class="col-2  text-end">
+              <p class="emailRowTime">7pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </body>
 </html>
